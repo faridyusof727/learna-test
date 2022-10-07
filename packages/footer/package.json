@@ -1,5 +1,6 @@
 {
   "name": "@faridyusof727/footer",
+  "repository": "https://github.com/faridyusof727/learna-test.git",
   "version": "0.0.4",
   "main": "dist/index.js",
   "scripts": {
