@@ -3,7 +3,7 @@ import React from 'react';
 export function Footer() {
     return (
         <footer>
-            Footer Version 4
+            Footer Version up up and go
         </footer>
     );
 }
