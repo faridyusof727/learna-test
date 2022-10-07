@@ -4,7 +4,7 @@ interface Props {
     /**
      * Children
      */
-    children? : JSX.Element
+    children? : JSX.Element[]
 }
 
 export function Header(props: Props): JSX.Element {
