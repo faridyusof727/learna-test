@@ -11,7 +11,9 @@ export default {
         }
     ],
     plugins: [
-        typescript(),
+        typescript({
+            declaration: true
+        })
     ],
     external: ["react"]
 };
