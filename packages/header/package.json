@@ -3,6 +3,9 @@
   "repository": "https://github.com/faridyusof727/learna-test.git",
   "version": "0.0.7",
   "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "rm -rf dist && rollup --config",
     "test": "jest"
