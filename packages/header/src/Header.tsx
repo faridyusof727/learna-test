@@ -4,13 +4,14 @@ interface Props {
     /**
      * Children
      */
-    children? : JSX.Element[]
+    children? : JSX.Element[] | JSX.Element | string;
+    onClick?:  React.MouseEventHandler<HTMLButtonElement>
 }
 
 export function Header(props: Props): JSX.Element {
     return (
         <header>
-            Lerna is the original monorepo tool! {props.children}
+            <button onClick={props.onClick}>{props.children}</button>
         </header>
     );
 }
