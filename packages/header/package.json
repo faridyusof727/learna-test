@@ -1,7 +1,7 @@
 {
   "name": "@faridyusof727/header",
   "repository": "https://github.com/faridyusof727/learna-test.git",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && rollup --config",
