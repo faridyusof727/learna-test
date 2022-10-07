@@ -1,6 +1,9 @@
 import React from 'react';
 
 interface Props {
+    /**
+     * Children
+     */
     children? : JSX.Element
 }
 
