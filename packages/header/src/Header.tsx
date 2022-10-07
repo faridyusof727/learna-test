@@ -1,9 +1,13 @@
 import React from 'react';
 
-export function Header(): JSX.Element {
+interface Props {
+    children? : JSX.Element
+}
+
+export function Header(props: Props): JSX.Element {
     return (
         <header>
-            Lerna is the original monorepo tool!
+            Lerna is the original monorepo tool! {props.children}
         </header>
     );
 }
