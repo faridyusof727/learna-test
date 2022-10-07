@@ -1,5 +1,5 @@
 {
-  "name": "header",
+  "name": "@faridyusof727/header",
   "version": "0.0.3",
   "main": "dist/index.js",
   "scripts": {
@@ -19,5 +19,5 @@
     "tslib": "^2.3.1",
     "typescript": "^4.5.2"
   },
-  "gitHead": "19d20a25b326e02c5a94a0f4b5cef77f969a5a78"
+  "gitHead": "8c3899b3eea364b7059ef4305d2c8df58e57b9e5"
 }
