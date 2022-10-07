@@ -18,5 +18,6 @@
     "ts-jest": "^27.1.1",
     "tslib": "^2.3.1",
     "typescript": "^4.5.2"
-  }
+  },
+  "gitHead": "71568b16a7a1c2f8ca2f9ed569f26557d317e9e7"
 }
